@@ -1,5 +1,5 @@
 git_commands assigment 17-06-2022
-------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------
 1.What is Verson Control System ?
 
 Answer-1.Version control systems are software tools that help software teams manage changes to source code over time.
@@ -9,7 +9,7 @@ Answer-1.Version control systems are software tools that help software teams man
        1.Local Version Control System.
        2.Centralized Version Control System.
        3.Distributed Version Control System
----------------------------------------------------------------------------------------------------------------------------------------------------------------      
+     
 2.What is Git ?
 
 Answer -Git is a DevOps tool used for source code management. It is a free and open-source version control system used to handle small to very large projects efficiently. 
@@ -41,38 +41,38 @@ Answer -A commit, or "revision", is an individual change to a file (or set of fi
 ------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 Basic Git Commands
 ----------------------
-1.git clone repository_url -The git clone is a command-line utility which is used to make a local copy of a remote repository.
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-2.git init -The git init command creates a new Git repository
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-3.git branch -The git branch command lets you create, list, rename, and delete branches
------------------------------------------------------------------------------------------------------------------------------------------------------------
-4.git checkout -b branch_name-This will create a local branch with the name branch_name .
-  Then you can switch your branch to this by git checkout branch_name 1.Merging branches,Creating a branch,Deleting a branch .
----------------------------------------------------------------------------------------------------------------------------------------------------------
-5.git add filename -Shows what has happened to that file since the commit
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-6.git add * - adds new or changed files in your working directory to the Git staging area.
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-7.git add . -adds a file to the Git staging area. 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-8.git status -used to display the state of the repository and staging area.
----------------------------------------------------------------------------------------------------------------------------------------------------------
-9.git diff -used in git to track the difference between the changes made on a file.
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-10.git commit -m "message"- records changes you make to the local repository
----------------------------------------------------------------------------------------------------------------------------------------------------------
-11.git push origin branch_name- origin stands for your remote repository.
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-12.git pull origin branch_name- The origin/master branch is essentially a "cached copy" of what was last pulled from origin .
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-13.git fetch --all- track the remote branches and track local branches that track remote branches respectively.
------------------------------------------------------------------------------------------------------------------------------------------------------------
-14.git merge branch_name- git merge and specify the name of the other branch to bring into this branch.
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-15.git config --list -show all Git config properties throughout all of the variously scoped Git files.
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-16.git config --global user.email "youremail"-Git allows you to set a global and per-project username and email address
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-17.git remote -v - create, view, and delete connections to other repositories.
------------------------------------------------------------------------
+1.git clone repository_url
+---
+2.git init 
+-----
+3.git branch -
+-------
+4.git checkout -b branch_name-
+-------------------------------
+
+5.git add filename -
+---------------------
+6.git add * -
+-----------------
+7.git add . - 
+-----------------
+8.git status -
+
+9.git diff -.
+----------------------------
+10.git commit -m "message"- 
+------------------------------
+11.git push origin branch_name-
+--------------------------------
+12.git pull origin branch_name- 
+------------------------------
+13.git fetch --all- 
+-----------------------
+14.git merge branch_name- 
+-------------------------
+15.git config --list -
+---------------------
+16.git config --global user.email "youremail"-
+------------------
+17.git remote -v 
+----------------
